@@ -1,0 +1,96 @@
+/*agency incident statistics*/
+use mydb;
+CREATE VIEW agency_incident_stats AS
+SELECT agency_name, state_abbreviation,
+COUNT(i.incident_id) AS total_incidents
+FROM 
+incidents i
+    JOIN locations l ON i.location_id = l.location_id
+    JOIN law_enforcement_agencies a ON l.location_id = a.location_id
+WHERE 
+i.cause_of_death="Gunshot"
+GROUP BY 
+a.agency_name, l.state_abbreviation
+HAVING 
+COUNT(i.incident_id)>1;
+
+/*officer charges*/
+use mydb;
+CREATE VIEW officers_charges AS
+SELECT 
+o.name AS officer_name,
+a.agency_name,
+oi.disposition_official
+FROM 
+    officer_involvements oi
+    JOIN officers o ON oi.officer_id = o.officer_id
+    JOIN law_enforcement_agencies a ON o.agency_id = a.agency_id
+WHERE 
+    oi.officer_charged != "No Known Charges";
+    
+/*blmera_black_victims*/
+CREATE VIEW blmera_black_victims AS
+SELECT 
+v.name AS victim_name,
+v.age,
+"Black" AS race,
+i.date,
+i.cause_of_death,
+    a.agency_name,
+    w.allegedly_armed
+FROM 
+victims v
+JOIN incidents i ON v.incident_id = i.incident_id
+JOIN locations l ON i.location_id = l.location_id
+JOIN law_enforcement_agencies a ON l.location_id = a.location_id
+JOIN wapo_classification w ON v.WAPO_id = w.WAPO_id
+WHERE 
+v.race="Black"
+AND i.date BETWEEN "2018-01-01" AND "2021-12-31"
+AND i.incident_id IN(
+SELECT DISTINCT incident_id  
+    FROM incidents  
+    JOIN victims USING (incident_id)
+    WHERE race ="Black"
+    AND cause_of_death="Gunshot")
+ORDER BY 
+    i.date,v.name;
+    
+/*victim and officer comparison*/
+use mydb;
+CREATE VIEW victim_officer_comparison AS
+SELECT 
+v.race AS victim_race,
+o.race AS officer_race,
+COUNT(DISTINCT oi.incident_id) AS incident_count
+FROM 
+officer_involvements oi
+    JOIN officers o ON oi.officer_id = o.officer_id
+    JOIN victims v ON oi.incident_id = v.incident_id
+WHERE 
+v.race IN ("Black","White","Hispanic")
+AND o.race IN ("Black","White","Hispanic")
+GROUP BY 
+    v.race,o.race
+HAVING 
+COUNT(DISTINCT oi.incident_id)>0;
+
+/*bodycam incidents*/
+use mydb;
+CREATE VIEW bodycam_incidents AS
+SELECT DISTINCT
+    i.incident_id,
+    i.date,
+    a.agency_name,
+    w.WAPO_body_camera AS body_camera_used
+FROM 
+    incidents i
+    JOIN victims v ON i.incident_id = v.incident_id
+    JOIN wapo_classification w ON v.WAPO_id = w.WAPO_id
+    JOIN locations l ON i.location_id = l.location_id
+    JOIN law_enforcement_agencies a ON l.location_id = a.location_id
+WHERE 
+w.WAPO_body_camera="Yes"
+AND i.date BETWEEN"2018-01-01"AND"2021-12-31"
+ORDER BY 
+i.date DESC;
