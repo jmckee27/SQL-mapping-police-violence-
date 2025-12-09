@@ -1,0 +1,39 @@
+officer_id,agency_id,name,race
+1,1,Kenneth Sheehan ,NULL
+2,1,David Hart,NULL
+3,1,Matthew Liadka ,NULL
+4,1,Nicolas Saralegui- Martin,NULL
+5,2,Christain Williams,NULL
+6,2,Jorge Trejo,Hispanic 
+7,3,Pierre Tyler,Black
+8,2,William Dorsey Jones,Black
+9,4,Shane Madrigal ,NULL
+10,4,Justin Kennedy,NULL
+11,4,John McAndrews,NULL
+12,4,Eduardo Medero ,NULL
+13,4,Maneechot Phanpaktra,NULL
+14,4,John Schall,NULL
+15,4,John Silva,NULL
+16,5,Luis Valle,Hispanic 
+17,5,Joel Garnica,NULL
+18,5,Joe Carbajal ,NULL
+19,5,Sergio Trejo ,NULL
+20,4,Eddie Roca,Hispanic 
+21,6,John McClave III,NULL
+22,7,Erin Zilka,White
+23,8,Winford Terrell Adams,NULL
+24,9,Garret Gray,NULL
+25,9,James McKee,NULL
+26,10,Felicia Pecora,NULL
+27,10,Hope Dauphin,NULL
+28,11,Eric DeValkenaere,White
+29,12,Aaron Dean,White 
+30,13,Albin Pearson,White
+31,13,Dwight Pitterson,Black
+32,14,Johnathan Richard Brown,White
+33,15,Randall Wetzel,White
+34,16,Jarrett Tonn,White
+35,4,Joshua Catlett,NULL
+36,4,Jesse Trudel,NULL
+37,1,Jason Wells,NULL
+38,5,Michael Thompson,NULL

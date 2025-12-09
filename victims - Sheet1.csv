@@ -1,0 +1,24 @@
+victim_id,incident_id,WAPO_id,name,age,gender,race
+1,1,1,Steven D. Smith,33,Male,Black
+2,2,2,Allison Lakie,33,Female ,White
+3,3,3,Enrique Ruiz,33,Male,Hispanic
+4,4,4,Andris Wofford,29,Female ,Black
+5,5,5,Daniel Abisai Elena Lopez,24,Male,Hispanic
+6,5,6,Valentina Orellana-Peralta,14,Female,Hispanic
+7,6,7,Christopher Escobedo,33,Male,Hispanic
+8,7,8,Cedrick Kyle Vick,22,Male ,White
+9,8,9,Fernando Cruz,18,Male,Hispanic
+10,8,10,Rene Herrera,39,Male,Hispanic
+11,9,11,Rudy Anderson,45,Male,Black
+12,10,12,Daniela Correia Salles,35,Female,Hispanic
+13,10,13,Angel Acevedo Jr.,40,Male,Hispanic
+14,11,14,Charles Schauer,33,Male,White
+15,12,15,Benjamin Lloyd Cloer,26,Male,White
+16,13,16,Mark Anson Schoggins,35,Male,White
+17,14,17,Derrick Everett,31,Male ,Black
+18,15,18,Cameron Lamb,26,Male,Black
+19,16,19,Atatiana Jefferson,28,Female,Black
+20,17,20,"Henry ""Hank"" Kistler Berry III",43,Male,White
+21,18,21,Jonathen B. Kohler,31,Male,White
+22,19,22,Maurice S. Gordon,28,Male,Black
+23,20,23,Sean Monterrosa,22,Male,Hispanic

@@ -1,0 +1,24 @@
+WAPO_id,allegedly_armed,signs_of_mental_illness,WAPO_threat_level,WAPO_flee,Off_duty_killing,WAPO_body_camera
+1,Allegedly Armed ,No ,Other ,Not Fleeing ,NULL ,Yes 
+2,Allegedly Armed ,Yes,Other ,Not Fleeing,NULL,Yes 
+3,Allegedly Armed ,No,Attack,Other,NULL,No
+4,Allegedly Armed ,NULL,Brandished Weapon,Not Fleeing,Off-Duty,Surveillance Video
+5,Allegedly Armed ,Yes,Attack,NULL,NULL,Yes
+6,Unarmed/Did Not Have Actual Weapon,No,Other,Foot,NULL,Yes
+7,Allegedly Armed ,Yes,Attack,"Car, Foot",NULL,No
+8,Allegedly Armed ,Drug or Alcohol Use,Attack,Car,NULL,No
+9,Unarmed/Did Not Have Actual Weapon,No,NULL,NULL,NULL,NULL
+10,Allegedly Armed ,No,Attack,NULL,NULL,NULL
+11,Allegedly Armed ,No,Attack,NULL,NULL,Bystander Video
+12,Unarmed/Did Not Have Actual Weapon,No,None,Not Fleeing,Off-Duty,NULL
+13,Unarmed/Did Not Have Actual Weapon,No,None,Not Fleeing,Off-Duty,NULL
+14,Unarmed/Did Not Have Actual Weapon,No,None,Not Fleeing,Off-Duty,NULL
+15,Unarmed/Did Not Have Actual Weapon,No,None,NULL,Off-Duty,No
+16,Allegedly Armed ,No,Attack,Car,NULL,No
+17,Allegedly Armed ,No,Attack,Other,NULL,No
+18,Unarmed/Did Not Have Actual Weapon,No,None,Not Fleeing,NULL,No
+19,Unarmed/Did Not Have Actual Weapon,No,Other,Not Fleeing,NULL,Yes
+20,Allegedly Armed ,Yes,Attack,Not Fleeing,NULL,No
+21,Vehicle,No,None,Car,NULL,Yes
+22,Unarmed/Did Not Have Actual Weapon,Yes,Undetermined,Not Fleeing,NULL,Yes
+23,Unarmed/Did Not Have Actual Weapon,No,Brandished Weapon,Foot,NULL,Yes

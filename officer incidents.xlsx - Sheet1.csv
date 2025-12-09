@@ -1,0 +1,41 @@
+incident_id,officer_id,officer_charged,disposition_official 
+1,1,No Known  Charges,Cleared by State AG
+1,2,No Known Charges,Cleared by State AG
+1,3,No Known Charges,Cleared by State AG
+1,4,No Known Charges,Cleared by State AG
+2,5,No Known Charges,Pending Investigation
+2,6,No Known charges,Pending Investigation
+3,7,Charged with murder,Charges Acquitted 
+4,8,Civil Suit,Cleared by State AG
+5,1,No Known Charges,Pending Investigation 
+6,9,No Known Charges,Justified by DA
+6,10,No Known Charges,Justified by DA
+6,11,No Known Charges,Justified by DA
+6,12,No Known Charges,Justified by DA
+6,13,No Known Charges,Justified by DA
+6,14,No Known Charges ,Justified by DA
+6,15,No Known Charges,Justified by DA
+7,9,No Known Charges,Justified by DA
+8,16,No Known Charges,Pending Investigation
+8,17,No Known Charges,Pending Investigation
+8,18,No Known Charges,Pending Investigation
+8,19,No Known Charges,Pending Investigation
+9,16,No Known Charges,Justified by DA
+9,20,No Known Charges,Justified by DA
+10,21,Vehicular Manslaughter,Charged
+11,22,DUI,Civil Suit Pending
+12,23,Murder,Charged
+13,24,No Known Charges,Justified by DA
+13,25,No Known Charges,Justified by DA
+14,26,No Known Charges,Pending Investigation
+14,27,No Known Charges,Pending Investigation
+15,28,Involuntary Manslaughter,Charged
+16,29,Murder,Charged
+17,30,Homicide,Convicted
+17,31,Homicide,Convicted
+18,32,Murder,Charged
+19,33,No Known Charges,Justified by Grand Jury
+20,34,No Known Charges,Civil Suit Pending
+6,35,No Known Charges,Justified by DA
+6,36,No Known Charges,Justified by DA
+5,37,No Known Charges,Pending Investigation

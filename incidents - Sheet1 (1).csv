@@ -1,0 +1,34 @@
+incident_id,date,cause_of_death,encounter_type,street_address,zip_code,location_id
+1,2020-09-04,Gunshot,NULL,200 N. State Street,13203,1
+2,2021-10-20,Gunshot ,Person with a Weapon ,216 Ulster Street,13204,1
+3,2021-12-26,Gunshot,Person with a Weapon ,2900 West Broadway,90041,2
+4,2021-12-08,Gunshot,Person with a Weapon ,2100 block of North Nashville Avenue,60707,3
+5,2021-12-23,Gunshot ,Part 1 Violent Crime,12121 Victory Blvd,91606,2
+6,2020-09-12,Gunshot,Traffic Stop,Meade St & W Colfax Ave,80204,4
+7,2021-05-14,Gunshot,Part 1 Violent Crime,West 1st Avenue and Perry Street,80219,4
+8,2018-09-19,Gunshot ,Person with a Weapon ,3864 Whittier Boulevard,90023,2
+9,2021-08-10,Gunshot ,Part 1 Violent Crime,S Main Street and 6th Street,90014,2
+10,2021-10-09,Vehicle,NULL,Garden State Parkway N at Asbury Ave,07753,5
+11,2020-01-19,Vehicle,NULL,Barack Obama Presidential Expy,60586,6
+12,2019-11-10,Gunshot,NULL,6000 Old Jefferson Road,30607,7
+13,2019-07-17,Gunshot,Other Non-Violent Offense,301 E South Ave,74501,8
+14,2019-11-28,Gunshot,Part 1 Violent Crime,200 E Cluster Ave,33604,9
+15,2019-12-03,Gunshot,Domestic Disturbance,4100 College Ave,64130,10
+16,2019-10-12,Gunshot,Mental Health/Welfare Check,1203 E Allen Ave,76104,11
+17,2019-12-27,Gunshot,NULL,100 Nantucket Pl,23606,12
+18,2021-03-30,Gunshot,Part 1 Violent Crime,2221 Euclid Ave,24201,13
+19,2020-05-23,Gunshot,Traffic Stop,Garden State Parkway near Bass River Township exit,08087,14
+20,2020-06-02,Gunshot,Other Non-Violent Offense,1000 Redwood St.,94590,15
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,s
